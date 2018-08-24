@@ -73,3 +73,7 @@ Myös ohjelman lopetus valikosta on pois päältä. Ohjelma lopetetaan sulkemall
 
 Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää.
 Eli käyttö on turvallista.
+
+Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja:
+https://github.com/isuihko/SelolaskuriWPF
+Noista lähdekoodeista voidaan kääntää Visual Studiolla Windowsissa toimiva työpöytäsovellus.
