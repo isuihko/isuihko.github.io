@@ -6,9 +6,9 @@ Ohjelmointikieli: C#/.NET
 Käyttöliittymä: WPF/XAML
 
 Vaatimukset:
-    Microsoft Windows
+    Microsoft Windows 7 ja uudemmat
     .NET Framework
-    Internet Explorer -selain
+    Internet Explorer -selain eli IE
 
 Avaa osoite:
     https://isuihko.github.io/index.html
@@ -53,7 +53,7 @@ Klikkaa Sivustot (Sites)
 Osoite-kentässä näkyy:  https://isuihko.github.io
 Klikkaa Lisää, Sulje ja OK (Add, Close, OK)
 
-Käynnistä ohjelma uudestaan linkistä.
+Käynnistä ohjelma uudestaan em. linkistä.
 
 Tulee ilmoitus:
     Julkaisijaa ei voitu vahvistaa
@@ -64,7 +64,7 @@ tai
 
 Valitse Suorita (Run).
 
-Tästä eteenpäin ohjelma toimii IE:llä.
+Tästä eteenpäin ohjelma toimii tietokoneessasi IE:llä.
 
 -----
 
@@ -74,6 +74,6 @@ Myös ohjelman lopetus valikosta on pois päältä. Ohjelma lopetetaan sulkemall
 Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää.
 Eli käyttö on turvallista.
 
-Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja:
+Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja (ei tehty muutoksia):
 https://github.com/isuihko/SelolaskuriWPF
-Noista lähdekoodeista voidaan kääntää Visual Studiolla Windowsissa toimiva työpöytäsovellus.
+Lähdekoodeista voidaan myös kääntää Windowsissa toimiva työpöytäsovellus: lataa koko paketti ja avaa & käännä Visual Studiolla.
