@@ -17,6 +17,9 @@ ja klikkaa Selolaskuri (XAML Browser Application)
 Tai valitse ohjelman osoite suoraan:
     https://isuihko.github.io/Selolaskuri.xbap
 
+Tietoa xbap-sovelluksista:
+https://en.wikipedia.org/wiki/XAML_Browser_Applications
+
 Ohjelman käynnistämisestä tulee ilmoitus:
     Sivusto yrittää avata verkkosisältöä tällä tietokoneen ohjelmalla
     Nimi: PresentationHost.exe
@@ -28,6 +31,7 @@ tai
     
 PresentationHost.exe on Windowsin oma ohjelma:
 https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe
+
 
 Valitse Salli (Allow)
 
@@ -67,4 +71,5 @@ Tästä eteenpäin ohjelma toimii IE:llä.
 Ohjelmassa on leikekirjan käytön valikkotoiminnot pois päältä, koska suojauksien takia ei leikekirjaa voida käyttää.
 Myös ohjelman lopetus valikosta on pois päältä. Ohjelma lopetetaan sulkemalla ikkuna.
 
-Ohjelmalla ei ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää. Eli käyttö on turvallista.
+Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää.
+Eli käyttö on turvallista.
