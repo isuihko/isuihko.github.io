@@ -1,6 +1,6 @@
 # isuihko.github.io
 
-Shakin vahvuusluvun laskenta
+Shakin vahvuusluvun laskenta, IE-selaimella suoritettava versio
 
 <PRE>
 Ohjelmointikieli: C#/.NET
@@ -88,6 +88,6 @@ Myös ohjelman lopetus valikosta on pois päältä. Ohjelma lopetetaan sulkemall
 Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää.
 Eli käyttö on turvallista.
 
-Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja (ei tehty muutoksia):
+Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja (muutokset käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, ikkuna on leveämpi):
 https://github.com/isuihko/SelolaskuriWPF
 Lähdekoodeista voidaan myös kääntää Windowsissa toimiva työpöytäsovellus: lataa koko paketti ja avaa & käännä Visual Studiolla.
