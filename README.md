@@ -82,12 +82,9 @@ Tästä eteenpäin ohjelma toimii tietokoneessasi IE:llä.
 
 -----
 
-Ohjelmassa on leikekirjan käytön valikkotoiminnot pois päältä, koska suojauksien takia ei leikekirjaa voida käyttää.
-Myös ohjelman lopetus valikosta on pois päältä. Ohjelma lopetetaan sulkemalla ikkuna.
+Ohjelmassa on leikekirjan käytön valikkotoiminnot pois päältä, koska suojauksien & käyttöoikeuksien takia ei leikekirjaa voida käyttää. Myöskään ohjelmaa ei voida sulkea valikosta vaan sulkemalla ikkuna. Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää. Eli käyttö on turvallista.
 
-Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää.
-Eli käyttö on turvallista.
+Luotu Visual Studio 2017:lla XAML Browser Application -sovellus aiemmasta Selolaskuri.WPF -versiosta. Muutokset käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, avataan leveämpi ikkuna.
 
-Luotu Visual Studio 2017:lla XAML Browser Application -sovellus käyttämällä seuraavia lähdekoodeja (muutokset käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, ikkuna on leveämpi):
-https://github.com/isuihko/SelolaskuriWPF
-Lähdekoodeista voidaan myös kääntää Windowsissa toimiva työpöytäsovellus: lataa koko paketti ja avaa & käännä Visual Studiolla.
+Ks. https://github.com/isuihko/Selolaskuri (kaikki lähdekoodit, Selolaskuri.XBAP) ja https://github.com/isuihko/SelolaskuriWPF.
+Lähdekoodeista voidaan myös tehdä Windowsissa toimiva työpöytäsovellus: lataa koko lähdekoodipaketti (esim. git clone https://github.com/isuihko/Selolaskuri) ja käännä Visual Studiolla Selolaskuri.WPF.
