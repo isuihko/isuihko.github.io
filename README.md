@@ -13,7 +13,7 @@ Vaatimukset:
 </PRE>
 
 Avaa IE-selaimella osoite:
-    https://isuihko.github.io
+    https://isuihko.github.io/index.html
 ja klikkaa Selolaskuri (XAML Browser Application)
 
 Tai valitse ohjelman osoite suoraan:
