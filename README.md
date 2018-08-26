@@ -1,26 +1,25 @@
-# isuihko.github.io
+### isuihko.github.io
 
-Shakin vahvuusluvun laskenta, IE-selaimella suoritettava versio
+Shakin vahvuusluvun laskenta / Chess rating calculator (Finnish SELO)
 
 <PRE>
-Ohjelmointikieli: C#/.NET
-Käyttöliittymä: WPF/XAML
+Ohjelma/program: https://isuihko.github.io/index.html
+Ohjeet/instructions: https://github.com/isuihko/isuihko.github.io
 
-Vaatimukset:
-    Microsoft Windows 7 ja uudemmat
+Vaatimukset/requirements:
+    Microsoft Windows 7/8/10
     .NET Framework
-    Internet Explorer -selain eli IE
+    Internet Explorer web browser
 </PRE>
 
 Avaa IE-selaimella osoite:
     https://isuihko.github.io/index.html
 ja klikkaa Selolaskuri (XAML Browser Application)
 
-Tai valitse ohjelman osoite suoraan:
+Tai valitse IE:llä ohjelma suoraan osoitteesta
     https://isuihko.github.io/Selolaskuri.xbap
 
-Tietoa xbap-sovelluksista:
-https://en.wikipedia.org/wiki/XAML_Browser_Applications
+Tietoa xbap-sovelluksista: https://en.wikipedia.org/wiki/XAML_Browser_Applications
 
 Ohjelman käynnistämisestä tulee ilmoitus:
 <PRE>
@@ -37,7 +36,6 @@ tai
     
 PresentationHost.exe on Windowsin oma ohjelma:
 https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe
-
 
 Valitse Salli (Allow)
 
@@ -78,13 +76,14 @@ tai
 
 Valitse Suorita (Run).
 
-Tästä eteenpäin ohjelma toimii tietokoneessasi IE:llä.
+Tästä eteenpäin ohjelma käynnistyy ja toimii tietokoneessasi IE:llä ongelmitta.
 
 -----
 
 Ohjelmassa on leikekirjan käytön valikkotoiminnot pois päältä, koska suojauksien & käyttöoikeuksien takia ei leikekirjaa voida käyttää. Myöskään ohjelmaa ei voida sulkea valikosta vaan sulkemalla ikkuna. Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää. Eli käyttö on turvallista.
 
-Luotu Visual Studio 2017:lla XAML Browser Application -sovellus aiemmasta Selolaskuri.WPF -versiosta. Muutokset käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, avataan leveämpi ikkuna.
+Luotu Visual Studio 2017:lla XAML Browser Application -sovellus aiemmasta Selolaskuri.WPF -versiosta. Muutokset vain käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, avataan leveämpi ikkuna.
 
-Ks. https://github.com/isuihko/Selolaskuri (kaikki lähdekoodit, Selolaskuri.XBAP) ja https://github.com/isuihko/SelolaskuriWPF.
-Lähdekoodeista voidaan myös tehdä Windowsissa toimiva työpöytäsovellus: lataa koko lähdekoodipaketti (esim. git clone https://github.com/isuihko/Selolaskuri) ja käännä Visual Studiolla Selolaskuri.WPF.
+Ohjelman lähdekoodit: https://github.com/isuihko/Selolaskuri jossa Selolaskuri.XBAP ja SelolaskuriLibrary.
+
+Lähdekoodeista voidaan tehdä myös Windowsissa toimiva työpöytäsovellus: lataa koko lähdekoodipaketti (esim. *git clone https://github.com/isuihko/Selolaskuri*) ja käännä Visual Studiolla. Aseta Selolaskuri.WPF tarvittaessa käynnistysohjelmaksi (hiiren oikealla napilla projektin kohdalla Set as StartUp Project).
