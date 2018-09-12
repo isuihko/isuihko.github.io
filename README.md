@@ -7,7 +7,7 @@ Ohjelma/program: https://isuihko.github.io/index.html
 Ohjeet/instructions: https://github.com/isuihko/isuihko.github.io
 
 Vaatimukset/requirements:
-    Microsoft Windows 7/8/10
+    Microsoft Windows 7/8, but maybe fails in Windows 10 with the error "This application type has been disabled"
     .NET Framework
     Internet Explorer web browser
 </PRE>
