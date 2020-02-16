@@ -7,7 +7,8 @@ Ohjelma/program: https://isuihko.github.io/index.html
 Ohjeet/instructions: https://github.com/isuihko/isuihko.github.io
 
 Vaatimukset/requirements:
-    Microsoft Windows 7/8, but maybe fails in Windows 10 with the error "This application type has been disabled"
+    Microsoft Windows 7/8
+    Windows 10 but also could fail with the error "This application type has been disabled"
     .NET Framework
     Internet Explorer web browser
 </PRE>
@@ -83,6 +84,7 @@ Tästä eteenpäin ohjelma käynnistyy ja toimii tietokoneessasi IE:llä ongelmi
 Ohjelmassa on leikekirjan käytön valikkotoiminnot pois päältä, koska suojauksien & käyttöoikeuksien takia ei leikekirjaa voida käyttää. Myöskään ohjelmaa ei voida sulkea valikosta vaan sulkemalla ikkuna. Ohjelmalla toimii vain selaimessa, eikä sillä ole käyttöoikeuksia oikein mihinkään, koska edes leikekirjaa ei voitu käyttää. Eli käyttö on turvallista.
 
 Luotu Visual Studio 2017:lla XAML Browser Application -sovellus aiemmasta Selolaskuri.WPF -versiosta. Muutokset vain käyttöliittymässä: Edit-menu cut/copy/paste pois päältä, Menu->Sulje pois päältä, avataan leveämpi ikkuna.
+Jatkokehitys Visual Studio 2019:llä.
 
 Ohjelman lähdekoodit: https://github.com/isuihko/Selolaskuri jossa Selolaskuri.XBAP ja SelolaskuriLibrary.
 
